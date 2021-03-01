@@ -4,7 +4,7 @@ author:
   # email: your-email@domain.com
   phone: 05-1234567
   address: 雲林縣斗六市大學路一段527號
-businese_hours: 
+businese_hours: true
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
