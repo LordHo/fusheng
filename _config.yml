@@ -3,6 +3,7 @@ author:
   name: 福生當鋪
   # email: your-email@domain.com
   phone: 05-1234567
+  address: 雲林縣斗六市大學路一段527號
 businese_hours: 
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
