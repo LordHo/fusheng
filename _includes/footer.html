@@ -21,8 +21,20 @@
             <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {% endif -%}
           {% if site.author.phone -%}
-            <li>phone:<a class="u-phone" href="mailto:{{ site.author.phone }}">{{ site.author.phone }}</a></li>
+            <li><strong>電話: </strong><a class="u-phone" href="mailto:{{ site.author.phone }}">{{ site.author.phone }}</a></li>
           {% endif -%}
+        </ul>
+      {%- endif %}
+      {%- if site.businese_hours %}
+        <p>營業時間:</p>
+        <ul class="contact-list">
+          <li>禮拜一 早上 9:00 – 晚上 6:00</li>
+          <li>禮拜二 早上 9:00 – 晚上 6:00</li>
+          <li>禮拜三 早上 9:00 – 晚上 6:00</li>
+          <li>禮拜四 早上 9:00 – 晚上 6:00</li>
+          <li>禮拜五 早上 9:00 – 晚上 6:00</li>
+          <li>禮拜六 休息</li>
+          <li>禮拜日 休息</li>
         </ul>
       {%- endif %}
       </div>
