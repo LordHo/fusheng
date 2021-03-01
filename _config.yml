@@ -1,7 +1,7 @@
-title: Your awesome title
+title: 福生當鋪
 author:
   name: GitHub User
-  email: your-email@domain.com
+  # email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -16,11 +16,11 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    # twitter: jekyllrb
+    # github:  jekyll
     # devto: jekyll
     # dribbble: jekyll
-    # facebook: jekyll
+    facebook: https://www.facebook.com/%E7%A6%8F%E7%94%9F%E7%95%B6%E8%88%96-235089770372501/
     # flickr:   jekyll
     # instagram: jekyll
     # linkedin: jekyll
