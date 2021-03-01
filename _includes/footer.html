@@ -18,10 +18,10 @@
             <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ 'email' | site.author.email }}</a></li>
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {% endif -%}
           {% if site.author.phone -%}
-            <li><a class="u-phone" href="mailto:{{ site.author.phone }}">{{ 'phone' | site.author.phone }}</a></li>
+            <li><a class="u-phone" href="mailto:{{ site.author.phone }}">{{ site.author.phone }}</a></li>
           {% endif -%}
         </ul>
       {%- endif %}
