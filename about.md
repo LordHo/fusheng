@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: 關於
 permalink: /about/
 ---
