@@ -23,6 +23,9 @@
           {% if site.author.phone -%}
             <li><strong>電話: </strong><a class="u-phone" href="mailto:{{ site.author.phone }}">{{ site.author.phone }}</a></li>
           {% endif -%}
+          {% if site.author.address -%}
+            <li><strong>地址: </strong><a class="u-phone" href="mailto:{{ site.author.address }}">{{ site.author.address }}</a></li>
+          {% endif -%}
         </ul>
       {%- endif %}
       {%- if site.businese_hours %}
