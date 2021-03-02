@@ -43,3 +43,49 @@ permalink: /buinese_type/
 	</div>
 </div>
 
+<div class="container">
+	<div class="bigtitle">
+		<p>服務項目</p>
+	</div>
+	<div class="icon">
+		<img src='../svg/service/house-fill.svg' width="80" height="80" class="center">
+		<div class="title">
+			<div class="subtitle">
+				<center><strong>土地、房屋貸款</strong></center>
+			</div>
+		</div>
+	</div>
+	<div class="icon">
+		<img src='../svg/service/car.svg' width="80" height="80" class="center">
+		<div class="title">
+			<div class="subtitle">
+				<center><strong>汽車</strong></center>
+			</div>
+		</div>
+	</div>
+	<div class="icon">
+		<img src='../svg/service/bike.svg' width="80" height="80" class="center">
+		<div class="title">
+			<div class="subtitle">
+				<center><strong>機車</strong></center>
+			</div>
+		</div>
+	</div>
+	<div class="icon">
+		<img src='../svg/service/dollar.svg' width="80" height="80" class="center">
+		<div class="title">
+			<div class="subtitle">
+				<center><strong>工商融資</strong></center>
+			</div>
+		</div>
+	</div>
+	<div class="icon">
+		<img src='../svg/service/gold-ingots.svg' width="80" height="80" class="center">
+		<div class="title">
+			<div class="subtitle">
+				<center><strong>金飾</strong></center>
+			</div>
+		</div>
+	</div>
+</div>
+
