@@ -3,7 +3,7 @@ layout: page
 title: 服務特點及項目
 permalink: /buinese_type/
 ---
-<link rel="stylesheet" href="../css/bussinese_type.css">
+<link rel="stylesheet" href="../css/business_type.css">
 <div class="container">
 	<div class="bigtitle">
 		<p>服務特點</p>
