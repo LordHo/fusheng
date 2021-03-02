@@ -5,8 +5,9 @@ permalink: /buinese_type/
 ---
 <link rel="stylesheet" href="../css/business_type.css">
 <div class="container">
+	<br/>
 	<div class="bigtitle">
-		<center>服務特點</center>
+		<p>服務特點</p>
 	</div>
 	<div class="icon">
 		<img src='../svg/feature/goverment.svg' width="100" height="100" class="center">
@@ -44,8 +45,9 @@ permalink: /buinese_type/
 </div>
 
 <div class="container">
+	<br/>
 	<div class="bigtitle">
-		<center>服務項目</center>
+		<p>服務項目</p>
 	</div>
 	<div class="icon">
 		<img src='../svg/service/house-fill.svg' width="80" height="80" class="center">
