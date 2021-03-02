@@ -3,18 +3,7 @@ layout: page
 title: 服務項目
 permalink: /buinese_type/
 ---
-<style>
-container{
-  width: 900px;
-  margin: 0 auto;
-}
-icon{
-  position: relative;
-  width: 270px;
-  float:left;
-  margin: 10px;
-}
-</style>
+<link rel="stylesheet" href="../css/bussinese_type.css">
 <div class="container">
 	<div class="icon">
 		<img src='../svg/feature/goverment.svg' width="50" height="50">

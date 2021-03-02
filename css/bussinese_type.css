@@ -1,0 +1,10 @@
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+.icon{
+  position: relative;
+  width: 270px;
+  float:left;
+  margin: 10px;
+}
