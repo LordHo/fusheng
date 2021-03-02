@@ -8,10 +8,15 @@
   float:left;
   margin: 10px;
 }
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.subtitle{
+	font-size: 40px;
+}
+.context{
+	font-size: 30px;
 }
