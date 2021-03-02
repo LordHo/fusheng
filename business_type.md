@@ -1,10 +1,13 @@
 ---
 layout: page
-title: 服務項目
+title: 服務特點及項目
 permalink: /buinese_type/
 ---
 <link rel="stylesheet" href="../css/bussinese_type.css">
 <div class="container">
+	<div class="bigtitle">
+		<p>服務特點</p>
+	</div>
 	<div class="icon">
 		<img src='../svg/feature/goverment.svg' width="100" height="100" class="center">
 		<div class="title">
