@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .icon{
-  position: center;
+  position: relative;
   width: 270px;
   float:left;
   margin: 10px;
