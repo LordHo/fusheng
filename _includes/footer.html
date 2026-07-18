@@ -44,7 +44,25 @@
       </div>
       <div class="footer-col">
 <!--         <p>{{ site.description | escape }}</p> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14612.654746630464!2d120.555505!3d23.705848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9750e27d7dca904d!2z56aP55Sf55W26IiW!5e0!3m2!1szh-TW!2stw!4v1614593659869!5m2!1szh-TW!2stw" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="map-embed" id="map-embed">
+          <button type="button" class="map-load-btn" id="map-load-btn">📍 顯示地圖</button>
+          <p class="map-open-link">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E7%A6%8F%E7%94%9F%E7%95%B6%E8%88%96%20%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E5%A4%A7%E5%AD%B8%E8%B7%AF%E4%B8%80%E6%AE%B5527%E8%99%9F" target="_blank" rel="noopener">在 Google Maps 開啟</a>
+          </p>
+        </div>
+        <script>
+          document.getElementById('map-load-btn').addEventListener('click', function () {
+            var container = document.getElementById('map-embed');
+            var iframe = document.createElement('iframe');
+            iframe.src = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14612.654746630464!2d120.555505!3d23.705848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9750e27d7dca904d!2z56aP55Sf55W26IiW!5e0!3m2!1szh-TW!2stw!4v1614593659869!5m2!1szh-TW!2stw';
+            iframe.width = '300';
+            iframe.height = '300';
+            iframe.style.border = '0';
+            iframe.loading = 'lazy';
+            iframe.allowFullscreen = true;
+            container.replaceChildren(iframe);
+          });
+        </script>
       </div>
     </div>
 
