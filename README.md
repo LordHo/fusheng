@@ -13,9 +13,9 @@
 
 | 頁面 | 檔案 | 網址 | 說明 |
 | --- | --- | --- | --- |
-| 首頁 | `index.md` | <https://fusheng-pawnshop.com/> | 文章列表首頁（`home` layout） |
-| 關於 | `about.md` | <https://fusheng-pawnshop.com/about/> | 店家介紹（合法當鋪、政府立案） |
-| 服務特點及項目 | `business_type.md` | <https://fusheng-pawnshop.com/buinese_type/> | 服務特點（認證、專業、服務）與服務項目（土地房屋貸款、汽機車、工商融資、金飾） |
+| 首頁 | `index.md` | <https://fusheng-pawnshop.com/> | 形象首頁：主視覺、服務特點、服務項目、借款流程、立案證照 |
+| 關於 | `about.md` | <https://fusheng-pawnshop.com/about/> | 店家介紹（合法當鋪、政府立案）與立案證照 |
+| 服務特點及項目 | `business_type.md` | <https://fusheng-pawnshop.com/buinese_type/> | 服務特點、服務項目（汽車、機車、黃金金飾）、借款流程、準備資料 |
 | 文章 | `_posts/` | — | 部落格文章 |
 
 頁尾（`_includes/footer.html`）會顯示聯絡資訊、營業時間、Facebook 連結與 Google 地圖。
@@ -29,9 +29,8 @@
 │   └── footer.html      # 自訂頁尾：聯絡資訊、營業時間、Google 地圖嵌入
 ├── _layouts/            # 頁面版型（default、home、page、post）
 ├── _posts/              # 部落格文章（檔名格式：YYYY-MM-DD-標題.md）
-├── _sass/               # 佈景主題樣式（minima）
-├── assets/              # 主題樣式進入點與社群 icon
-├── css/                 # business_type 頁面的自訂樣式
+├── _sass/               # 佈景主題樣式（minima）；品牌樣式在 minima/custom-styles.scss
+├── assets/              # 主題樣式進入點、社群 icon 與圖片（店面照、立案證照）
 ├── svg/                 # 服務特點與服務項目的圖示
 ├── CNAME                # GitHub Pages 自訂網域（fusheng-pawnshop.com）
 ├── sitemap.xml          # 搜尋引擎 sitemap
