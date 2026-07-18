@@ -1,8 +1,10 @@
 title: 福生當鋪
+lang: zh-TW
 author:
   name: 福生當鋪
   # email: your-email@domain.com
   phone: (05)5339997
+  phone2: (05)5351177
   address: 雲林縣斗六市大學路一段527號
 businese_hours: true
 description: > # this means to ignore newlines until "show_excerpts:"

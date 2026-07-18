@@ -1,25 +1,298 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
+// ---- 福生當舖 brand palette ----
+$fs-gold: #d4af37;
+$fs-gold-dark: #9c6d1e;
+$fs-dark: #1c2331;
+$fs-cream: #faf6ee;
+$fs-border: #e6e0d2;
+
+// ---- Header: dark with gold accent ----
+.site-header {
+  background-color: $fs-dark;
+  border-top: 4px solid $fs-gold;
+  border-bottom: none;
+
+  .site-title,
+  .site-title:visited {
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+}
+
+.site-nav .page-link {
+  color: $text-color;
+}
+
+@media screen and (min-width: 600px) {
+  .site-nav .page-link {
+    color: #f0f0f0;
+
+    &:hover {
+      color: $fs-gold;
+      text-decoration: none;
+    }
+  }
+}
+
+// ---- Shared section blocks ----
+.fs-section {
+  margin: 40px 0;
+}
+
+.fs-section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 3px;
+    background-color: $fs-gold;
+    margin: 10px auto 0;
+  }
+}
+
+// ---- Cards ----
+.fs-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.fs-card {
+  flex: 1 1 220px;
+  max-width: 320px;
+  background-color: #ffffff;
+  border: 1px solid $fs-border;
+  border-radius: 12px;
+  padding: 24px 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  img {
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 auto 12px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 15px;
+    color: #555555;
+    margin-bottom: 0;
+  }
+}
+
+.fs-badge {
+  display: inline-block;
+  background-color: $fs-gold;
+  color: $fs-dark;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 13px;
+  margin-right: 6px;
+}
+
+// ---- Hero ----
+.fs-hero {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background:
+    linear-gradient(rgba(20, 26, 40, 0.72), rgba(20, 26, 40, 0.72)),
+    url("/assets/images/storefront.jpg") center / cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 64px 24px;
+
+  h1 {
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-indent: 10px;
+    margin-bottom: 10px;
+  }
+
+  .fs-hero-slogan {
+    font-size: 20px;
+    color: $fs-gold;
+    letter-spacing: 4px;
+    margin-bottom: 6px;
+  }
+
+  .fs-hero-sub {
+    font-size: 16px;
+    color: #e8e8e8;
+    margin-bottom: 24px;
+  }
+}
+
+.fs-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.fs-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 999px;
+  background-color: $fs-gold;
+  color: $fs-dark;
+  font-size: 18px;
+  font-weight: bold;
+
+  &:visited {
+    color: $fs-dark;
+  }
+
+  &:hover {
+    background-color: lighten($fs-gold, 10%);
+    color: $fs-dark;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fs-hero {
+    padding: 44px 16px;
+
+    h1 {
+      font-size: 30px;
+      letter-spacing: 6px;
+      text-indent: 6px;
+    }
+
+    .fs-hero-slogan {
+      font-size: 17px;
+    }
+  }
+
+  .fs-section-title {
+    font-size: 24px;
+  }
+}
+
+// ---- Loan process steps ----
+.fs-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  margin-left: 0;
+}
+
+.fs-step {
+  flex: 1 1 150px;
+  text-align: center;
+  background-color: $fs-cream;
+  border: 1px solid $fs-border;
+  border-radius: 12px;
+  padding: 20px 12px;
+
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 0;
+  }
+}
+
+.fs-step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: $fs-dark;
+  color: $fs-gold;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+// ---- Required documents ----
+.fs-docs {
+  background-color: $fs-cream;
+  border: 1px solid $fs-border;
+  border-radius: 12px;
+  padding: 20px 28px;
+  max-width: 640px;
+  margin: 0 auto;
+
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+// ---- Licenses / certificates ----
+.fs-certs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+  figure {
+    flex: 1 1 260px;
+    max-width: 400px;
+    margin: 0;
+    text-align: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      border: 1px solid $fs-border;
+      border-radius: 8px;
+    }
+
+    figcaption {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #666666;
+    }
+  }
+}
+
+.fs-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+// ---- Footer ----
+.site-footer {
+  background-color: $fs-cream;
+  border-top: 3px solid $fs-gold;
+}
+
 .map-embed {
   iframe {
     max-width: 100%;
-  }
-
-  .map-load-btn {
-    display: block;
-    padding: 12px 24px;
-    font-size: 16px;
-    cursor: pointer;
-    border: 1px solid $border-color-01;
-    border-radius: 4px;
-    background-color: $background-color;
-    color: $text-color;
-
-    &:hover {
-      border-color: $link-base-color;
-      color: $link-base-color;
-    }
+    border-radius: 8px;
   }
 
   .map-open-link {
