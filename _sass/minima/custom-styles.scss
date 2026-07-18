@@ -1,2 +1,28 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.map-embed {
+  iframe {
+    max-width: 100%;
+  }
+
+  .map-load-btn {
+    display: block;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid $border-color-01;
+    border-radius: 4px;
+    background-color: $background-color;
+    color: $text-color;
+
+    &:hover {
+      border-color: $link-base-color;
+      color: $link-base-color;
+    }
+  }
+
+  .map-open-link {
+    margin-top: 8px;
+  }
+}

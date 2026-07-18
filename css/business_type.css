@@ -1,25 +1,53 @@
-.container{
-  width: 900px;
+.container {
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.icon{
-  position: relative;
-  width: 270px;
-  float:left;
+.bigtitle {
+  flex-basis: 100%;
+  font-size: 40px;
+}
+.icon {
+  flex: 1 1 220px;
+  max-width: 270px;
   margin: 10px;
 }
-.center {
+.icon img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  max-width: 100px;
+  height: auto;
 }
-.bigtitle{
-	font-size: 40px;
+.bigtitle p {
+  margin-bottom: 0;
 }
-.subtitle{
-	font-size: 30px;
+.subtitle {
+  font-size: 30px;
 }
-.context{
-	font-size: 20px;
+.context {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .bigtitle {
+    font-size: 28px;
+  }
+  .subtitle {
+    font-size: 22px;
+  }
+  .context {
+    font-size: 16px;
+  }
+  .icon {
+    flex: 1 1 40%;
+    margin: 8px 4px;
+  }
+  .icon img {
+    max-width: 72px;
+  }
 }
