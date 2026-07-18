@@ -1,5 +1,6 @@
 title: 福生當鋪
 lang: zh-TW
+url: "https://fusheng-pawnshop.com"
 author:
   name: 福生當鋪
   # email: your-email@domain.com
@@ -7,9 +8,18 @@ author:
   phone2: (05)5351177
   address: 雲林縣斗六市大學路一段527號
 businese_hours: true
-description: > # this means to ignore newlines until "show_excerpts:"
+description: >-
+  福生當舖是雲林斗六政府立案的合法當舖,提供汽車借款、機車借款(免留車)與黃金金飾典當,
+  免費專業鑑定、手續簡單、快速放款、誠信保密。地址:雲林縣斗六市大學路一段527號,電話 (05)533-9997。
 
 show_excerpts: false # set to true to show excerpts on the homepage
+
+# Default social-sharing image for all pages (used by jekyll-seo-tag)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/storefront.jpg
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this

@@ -2,6 +2,9 @@
 layout: page
 title: 服務特點及項目
 permalink: /buinese_type/
+description: >-
+  福生當舖(斗六)服務項目:汽車借款免留車、機車借款免留車、黃金金飾典當。
+  政府立案、免費專業鑑定、快速放款,並附借款流程與準備資料說明。
 ---
 <div class="fs-section">
 	<h2 class="fs-section-title">服務特點</h2>
