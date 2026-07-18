@@ -43,7 +43,12 @@
           <li>&nbsp;&nbsp;禮拜日 休息</li>
         </ul>
       {%- endif %}
-      {%- include social.html -%}
+      {%- if site.minima.social_links.facebook %}
+        <a class="fs-fb-btn" href="https://www.facebook.com/{{ site.minima.social_links.facebook | cgi_escape | escape }}" target="_blank" rel="noopener">
+          <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg>
+          <span>Facebook 粉絲專頁</span>
+        </a>
+      {%- endif %}
       </div>
       <div class="footer-col">
 <!--         <p>{{ site.description | escape }}</p> -->

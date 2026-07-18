@@ -283,6 +283,36 @@ $fs-border: #e6e0d2;
   margin-top: 20px;
 }
 
+// ---- Facebook button ----
+.fs-fb-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #1877f2;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+
+  .svg-icon {
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+  }
+
+  &:visited {
+    color: #ffffff;
+  }
+
+  &:hover {
+    background-color: #1466d8;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
 // ---- Footer ----
 .site-footer {
   background-color: $fs-cream;
